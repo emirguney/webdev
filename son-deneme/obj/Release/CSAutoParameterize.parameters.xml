@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Veritabanına erişmek için uygulama tarafından web.config'de kullanılan Bağlantı Dizesi." defaultValue="Server=tcp:son-denemedbserver.database.windows.net,1433;Initial Catalog=son-deneme_db;Persist Security Info=False;User ID=emirWeb;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\EMİR\\Source\\Repos\\son-deneme\\son-deneme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="son-deneme_dbConnectionString-Web.config Connection String" description="son-deneme_dbConnectionString Veritabanına erişmek için uygulama tarafından web.config'de kullanılan Bağlantı Dizesi." defaultValue="Data Source=son-denemedbserver.database.windows.net;Initial Catalog=son-deneme_db;Persist Security Info=True;User ID=emirWeb;Password=0535698348aA" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\EMİR\\Source\\Repos\\son-deneme\\son-deneme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='son-deneme_dbConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="son-deneme_dbConnectionString2-Web.config Connection String" description="son-deneme_dbConnectionString2 Veritabanına erişmek için uygulama tarafından web.config'de kullanılan Bağlantı Dizesi." defaultValue="Data Source=son-denemedbserver.database.windows.net;Initial Catalog=son-deneme_db;User ID=emirWeb;Password=0535698348aA" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\EMİR\\Source\\Repos\\son-deneme\\son-deneme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='son-deneme_dbConnectionString2']/@connectionString" />
+  </parameter>
+  <parameter name="son-deneme_dbConnectionString3-Web.config Connection String" description="son-deneme_dbConnectionString3 Veritabanına erişmek için uygulama tarafından web.config'de kullanılan Bağlantı Dizesi." defaultValue="Data Source=son-denemedbserver.database.windows.net;Initial Catalog=son-deneme_db;User ID=emirWeb;Password=0535698348aA" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\EMİR\\Source\\Repos\\son-deneme\\son-deneme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='son-deneme_dbConnectionString3']/@connectionString" />
+  </parameter>
+  <parameter name="son-deneme_dbConnectionString4-Web.config Connection String" description="son-deneme_dbConnectionString4 Veritabanına erişmek için uygulama tarafından web.config'de kullanılan Bağlantı Dizesi." defaultValue="Data Source=son-denemedbserver.database.windows.net;Initial Catalog=son-deneme_db;Persist Security Info=True;User ID=emirWeb;Password=0535698348aA" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\EMİR\\Source\\Repos\\son-deneme\\son-deneme\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='son-deneme_dbConnectionString4']/@connectionString" />
+  </parameter>
+</parameters>
